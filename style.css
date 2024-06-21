@@ -24,6 +24,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    background-color: #fff;
+    z-index: 50;
+    height: 112px;
   }
   
   .logo {
@@ -31,7 +35,7 @@
     align-items: center;
     display: flex;
     width: 35%;
-    height: 122px;
+    height: 112px;
   }
   
   .social {
@@ -39,12 +43,12 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    height: 122px;
+     height: 112px;
   }
   
 .menu-inner{
     width: 90%; 
-    height: 122px;
+     height: 112px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,9 +81,101 @@
 }
 
 .fa-user{
+
  border-radius: 50%;
  color: #fff;
  background-color: #000;
  padding: 6px;
+ overflow: hidden;
+ font-size: 22px;
+ justify-content: center;
+ margin-bottom: -8px;
+margin-top: 4px;
 }
 
+.register button{
+   margin-top: 4px;
+   text-decoration: none;
+   border: none;
+   margin-left: 10px;
+   margin-bottom: 8px;
+   font-size: 16px;
+   font-weight: 300;
+   background-color: transparent;
+}
+
+/*-----------------------------------------------------*/
+.carousel-container {
+   width: 600px;
+   height: 400px;
+   position: relative;
+   margin: 0 auto;
+ 
+ }
+ 
+ .navigation-buttons .previous {
+   color: #fff;
+   position: absolute;
+   z-index: 10;
+   font-size: 80px;
+   top: 73%;
+   left:  8%;
+ }
+ 
+ .navigation-buttons .next {
+   right: 8%;
+   color: #fff;
+   position: absolute;
+   font-size: 80px;
+   z-index: 10;
+   top: 73%;
+ }
+ 
+ .navigation-buttons .nav-btn {
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 5px;
+ }
+ 
+ .navigation-buttons .next:hover {
+   color: rgb(156, 156, 156);
+ }
+
+ .navigation-buttons .previous:hover {
+   color: rgb(156, 156, 156);
+ }
+
+ .slider-carousel {
+   margin-top: 7%;
+   transition: all 0.3s ease;
+ 
+ }
+ .slider-carousel img {
+   width: 100%;
+   transition: all 0.3s ease;
+   border:8px solid white;
+ }
+ 
+ .images {
+   position: absolute;
+   display: none;
+ }
+ 
+ .main {
+   display: block;
+ }
+ 
+ /* .image-text {
+   position: absolute;
+   bottom: 0;
+   width: 103%;
+   display: flex;
+   font-size: 20px;
+   justify-content: center;
+   align-items: center;
+   color: rgb(255, 255, 255);
+   background: rgba(0, 0, 0, 0.3);
+   height: 35px;
+ } */
