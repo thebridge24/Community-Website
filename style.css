@@ -32,7 +32,8 @@
     z-index: 50;
     height: 112px;
   }
-  
+ 
+
   button{
    box-sizing: border-box;
    display: flex;
@@ -49,7 +50,20 @@
    background-color: #ffffff;
    color: #FFBF00;
   }
-
+  .register-btn h4{
+   margin-top: 4px;
+   text-decoration: none;
+   border: none;
+   margin-left: 20px;
+   margin-bottom: 8px;
+   font-weight: 400;
+   font-size: 16px;
+   background-color: transparent;
+   padding: 0;
+} 
+.register-btn h4:hover{
+   color: #FFBF00;
+}
   .logo {
     justify-content: center;
     align-items: center;
@@ -106,29 +120,18 @@
 }
 
 .fa-user{
-
  border-radius: 50%;
  color: #fff;
  background-color: #000;
  padding: 6px 7px;
  overflow: hidden;
  font-size: 22px;
- margin-bottom: -8px;
-margin-top: 4px;
+ margin-top: 4px;
+ 
 }
 
-.register button{
-   margin-top: 4px;
-   text-decoration: none;
-   border: none;
-   margin-left: 10px;
-   margin-bottom: 8px;
-   font-size: 16px;
-   font-weight: 300;
-   background-color: transparent;
-}
 
-/*-----------------------------------------------------*/
+/*------------------------------------------------------------------*/
 
 .slider-carousel{
    margin-top: 10%;
@@ -255,7 +258,7 @@ figure{
    color: #FFBF00;
    
  }
-
+/*----------------------------------------------------------------*/
  .second-text{
    font-size: 30px;
    text-align: center;
@@ -297,7 +300,7 @@ figure{
    font-weight: 800;
 
  }
-
+/*---------------------------------------------------------------------*/
  .platforms{
    height: 700px;
    width: 100vw;
@@ -306,19 +309,19 @@ figure{
    align-items: center;
 
  }
- .platform .name{
+ .platform .name1{
    text-align: center;
-   font-size: 30px;
+   font-size: 36px;
    font-weight: 800;
+   margin-bottom: 20px;
  }
 
  .platform{
    display: flex;
    flex-direction: column;
-   justify-content: center;
    align-items: center;
    flex: 1;
-   height: 600px;
+   height: 650px;
    
  }
  .platform .img2{
@@ -326,3 +329,36 @@ figure{
 
  }
 
+.platform .btn{
+   padding: 6px 30px;
+}
+
+.platform p{
+   text-align: center;
+   width: 500px;
+
+}
+
+.platform .img1{
+   margin-top: 40px;
+   margin-bottom: 10px;
+ }
+
+ .platform .name2{
+   text-align: center;
+   font-size: 36px;
+   font-weight: 800;
+   margin-bottom: 40px;
+ }
+
+ .ptf button{
+   margin-top: 55px;
+ }
+
+ /*------------------------------------------------------------------*/
+
+ .community-comment{
+   height: 400px;
+   width: 100%;
+   background-color: #FFF7DE;
+ }
