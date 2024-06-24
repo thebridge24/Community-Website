@@ -33,6 +33,23 @@
     height: 112px;
   }
   
+  button{
+   box-sizing: border-box;
+   display: flex;
+   color: #00011f;
+   font-weight: 700;
+   padding: 6px 18px;
+   background-color: #FFBF00;
+   margin-top: 40px;
+   width: fit-content;
+   transition: all 0.2s ease;
+   border: 2px solid #FFBF00 ;
+  }
+  button:hover{
+   background-color: #ffffff;
+   color: #FFBF00;
+  }
+
   .logo {
     justify-content: center;
     align-items: center;
@@ -238,3 +255,74 @@ figure{
    color: #FFBF00;
    
  }
+
+ .second-text{
+   font-size: 30px;
+   text-align: center;
+   padding: 80px;
+   font-weight: 300;
+
+ }
+ .features {
+   display: flex;
+   width: 100%;
+   height: 375px;
+   background-color: #FFF7DE;
+ }
+
+ .feature{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+ }
+
+ .feature .icone{
+   color: #FFBF00;
+   font-size: 50px;
+   margin-bottom: 20px;
+
+ }
+
+ .feature p{
+   width: 350px;
+   font-weight: 300;
+   text-align: center;
+ }
+
+ .feature .tag h3{
+   font-size: 20px;
+   margin-bottom: 15px;
+   font-weight: 800;
+
+ }
+
+ .platforms{
+   height: 700px;
+   width: 100vw;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+ .platform .name{
+   text-align: center;
+   font-size: 30px;
+   font-weight: 800;
+ }
+
+ .platform{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex: 1;
+   height: 600px;
+   
+ }
+ .platform .img2{
+   width: 300px;
+
+ }
+
