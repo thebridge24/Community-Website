@@ -330,7 +330,9 @@ figure{
  }
 
 .platform .btn{
-   padding: 6px 30px;
+   padding: 10px 50px;
+   font-weight: 450;
+
 }
 
 .platform p{
@@ -358,7 +360,72 @@ figure{
  /*------------------------------------------------------------------*/
 
  .community-comment{
-   height: 400px;
+   height: 300px;
    width: 100%;
    background-color: #FFF7DE;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
  }
+
+ .community-title{
+   text-align: center;
+   font-size: 36px;
+   font-weight: 800;
+   margin-bottom: 30px;
+ }
+
+.comment-session p, 
+.comment-session h5{
+   text-align: center;
+}
+
+.comment-session{
+   width: 800px;
+   height: 65px;
+   overflow: hidden;
+   position: relative;
+   margin-bottom: 20px;
+}
+
+.nev-btn{
+   cursor: pointer;
+    font-size: 60px;
+    position: absolute;
+    
+}
+
+.prev{
+color: #000000;
+left: 10%;
+
+}
+
+.pnext{
+   display: flex;
+   right: 10%;
+}
+
+
+
+.comment-names{
+   display: flex;
+   flex-direction: column;
+   height: 18px;
+   overflow: hidden;
+   margin-bottom: 10px;
+}
+
+.comment-names h5{
+   font-size: 16px;
+
+}
+
+.nev-btn:hover{
+   color: #969696;
+}
+
+.comment-session p{
+   font-size: 18px;
+}
