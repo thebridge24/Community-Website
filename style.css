@@ -259,14 +259,21 @@ figure{
     justify-content: center;
     align-items: center;
     padding: 5px;
+    
+  }
+  .navigation-buttons .nav-btn .fa-chevron-right {
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
   }
   
+  .navigation-buttons .nav-btn .fa-chevron-left { 
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+  }
   .navigation-buttons .next:hover {
-    color: rgb(156, 156, 156);
+    opacity: 0.5;
   }
  
   .navigation-buttons .previous:hover {
-    color: rgb(156, 156, 156);
+    opacity: 0.5;
   }
 
   .image-text {
@@ -506,35 +513,44 @@ left: 10%;
 
 /*describe------------------------------------------------------------------*/
 
-.describe{
+.describe {
   height: 650px;
   width: 100%;
-  display:flex;
+  display: flex;
   background-color: #fff;
 }
 
-.talk{
- padding: 90px 90px;
-
+.des-image {
+  width: 50%;
 }
-.talk p{
+
+.des-image img {
+  width: 100%;
+}
+
+.talk {
+  width: 50%;
+  padding: 90px 90px;
+}
+
+.talk p {
   margin-bottom: 30px;
-  width: 450px;
   font-weight: 300;
 }
-.des-title h2{
+
+.des-title h2 {
   margin-bottom: 30px;
   font-size: 35px;
   font-weight: 800;
-
 }
 
-.describe button{
+.describe button {
   margin-top: 80px;
   padding: 6px 40px;
   font-size: 15px;
   font-weight: 400;
 }
+
 
 /*partners------------------------------------------------------------------*/
 
