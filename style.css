@@ -10,6 +10,7 @@
     padding: 0px;
     display: flex;
     flex-direction: column;
+
  }
 
 /*Header---------------------------------------------------*/
@@ -522,10 +523,14 @@ left: 10%;
 
 .des-image {
   width: 50%;
+  overflow: hidden;
 }
 
 .des-image img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .talk {
@@ -641,6 +646,7 @@ width: 99%;
 }
 .quest-image img{
   width: 100%;
+  
 }
 .quest{
   margin: 90px 0 0 90px;
