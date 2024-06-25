@@ -303,7 +303,7 @@ figure{
 /*---------------------------------------------------------------------*/
  .platforms{
    height: 700px;
-   width: 100vw;
+   width: 100%;
    display:flex;
    justify-content: center;
    align-items: center;
@@ -357,7 +357,7 @@ figure{
    margin-top: 55px;
  }
 
- /*------------------------------------------------------------------*/
+ /*Community Comment--------------------------------------------------*/
 
  .community-comment{
    height: 300px;
@@ -407,8 +407,6 @@ left: 10%;
    right: 10%;
 }
 
-
-
 .comment-names{
    display: flex;
    flex-direction: column;
@@ -428,4 +426,40 @@ left: 10%;
 
 .comment-session p{
    font-size: 18px;
+}
+
+/*describe------------------------------------------------------------------*/
+
+.describe{
+  height: 700px;
+  width: 100%;
+  display:flex;
+  background-color: #fff;
+}
+
+.talk{
+ padding: 90px 90px;
+
+}
+.talk p{
+  margin-bottom: 30px;
+  width: 450px;
+  font-weight: 300;
+}
+.des-title h2{
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: 800;
+
+}
+
+.describe button{
+  margin-top: 80px;
+  padding: 6px 40px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.dots{
+  display: flex;
 }
