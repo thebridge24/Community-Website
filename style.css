@@ -134,7 +134,7 @@
 /*------------------------------------------------------------------*/
 
 .slider-carousel{
-   margin-top: 10%;
+   margin-top: 8%;
    width: 100%;
    height: 600px;
    overflow: hidden;
@@ -147,10 +147,10 @@ figure{
 }
 
 .images{
-   position: relative;
+   position: relative; 
    width: 100%;  
    height: 100%;
-   
+
 }
 
 .backgr{
@@ -160,14 +160,10 @@ figure{
  .images img{
    display: block;
    width: 100%;
-   object-fit: contain;
-   align-self: center;
  }
 
  .main {
    display: block;
-   top: 0;
-  left: 0;
   z-index: 1;
  }
  .backgr{
@@ -264,9 +260,11 @@ figure{
    text-align: center;
    padding: 80px;
    font-weight: 300;
-
+  background-color: #fff;
  }
- .features {
+
+/*----------------------------------------------------------------*/ 
+ .features{
    display: flex;
    width: 100%;
    height: 375px;
@@ -307,7 +305,7 @@ figure{
    display:flex;
    justify-content: center;
    align-items: center;
-
+    background-color: #fff;
  }
  .platform .name1{
    text-align: center;
@@ -541,3 +539,123 @@ width: 99%;
 
 /*Questions------------------------------------------------------------------*/
 
+.question{
+  display: flex;
+  width: 100%;
+  height: 520px;
+  background-color: #fff;
+}
+.qr{
+  width: 100%;
+
+}
+.quest-image img{
+  width: 100%;
+}
+.quest{
+  margin: 90px 0 0 90px;
+}
+.quest h2{
+  font-size: 36px;
+  font-weight: 800; 
+}
+
+.quest-session h2{
+  margin-bottom: 50px;
+}
+
+.whatsapp, .email, .linked{
+  display: flex;
+}
+
+.whatsapp{
+  gap: 24px;  
+  font-weight: 300;
+  align-items: center;
+  margin-bottom: 50px; 
+}
+.whatsapp .wa-icon i{
+font-size: 22px;  
+padding: 6px 6px 5px 7px;  
+text-align: center;
+border-radius: 100%;
+background-color: #000;
+color: #fff;
+}
+
+.email{
+  gap: 30px; 
+  font-weight: 300;
+  align-items: center;
+  margin-bottom: 50px; 
+}
+.email .em-icon i{
+  font-size: 22px; 
+  border-radius: 100%;
+}
+
+.linked .pr i{
+  font-size: 18px;
+  background-color: transparent;
+  margin: 10px 10px 0 0; 
+}
+.linked{
+  gap: 30px;
+  font-weight: 300;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.linked .fa-heart{
+  font-size: 22px; 
+}
+
+footer{
+  display: flex;
+  width: 100%;
+  height: 350px;
+  color: #fff;
+  background-color: #161616;
+}
+.br{
+  width: 100%;
+  padding: 50px 0 0 100px;  
+}
+
+.br a p{
+  color: #fff;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+last{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #161616;
+  color: #fff;
+  margin-top: 1px;
+  padding: 20px 0 20px 0;
+}
+
+.br h2{
+  font-size: 16px; 
+}
+
+ .menu a p:hover{
+color: #FFBF00;
+}
+.menu .active{
+  color: #FFBF00;
+}
+
+.br .follow-logo i{
+  color:#000000;
+  font-size: 22px; 
+  padding: 5px 7px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 10px 10px 0 0; 
+
+}
