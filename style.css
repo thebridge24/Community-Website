@@ -428,10 +428,14 @@ left: 10%;
    font-size: 18px;
 }
 
+.dots{
+  display: flex;
+}
+
 /*describe------------------------------------------------------------------*/
 
 .describe{
-  height: 700px;
+  height: 650px;
   width: 100%;
   display:flex;
   background-color: #fff;
@@ -460,6 +464,80 @@ left: 10%;
   font-weight: 400;
 }
 
-.dots{
+/*partners------------------------------------------------------------------*/
+
+.partners{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFF7DE;
+  width: 100%;
+  height: 750px;
 }
+
+.partners .title-name h1{
+  font-size: 35px;
+  font-weight: 800;
+  margin: 50px 0 20px 0; 
+
+}
+
+.logo-grid .all-logo {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  gap: 10px;
+}
+
+.partner-para p{
+  width: 760px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.lg{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: 400px;
+  width: 100%;
+  align-items: center;
+}
+
+.lg p{
+  text-align: center;
+  font-weight: 300;
+  width: 200px;
+
+}
+.lg img{
+  margin: 40px;
+}
+
+.second-logo img{
+  margin-bottom: 20px;
+
+}
+.logo-grid { 
+width: 99%;
+}
+.second-logo p{
+  margin-top: 20px;
+}
+.partners button{
+  padding: 10px 40px; 
+  font-size: 15px;
+  font-weight: 400;
+}
+.third-logo img{
+  margin-top: 90px;
+
+}
+
+.third-logo p{
+  margin-top: 24px;
+}
+
+
+/*Questions------------------------------------------------------------------*/
+
