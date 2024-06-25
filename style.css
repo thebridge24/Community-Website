@@ -282,7 +282,15 @@ figure{
  .offen, .cent{
   top: 35%;
  }
-
+.cent{
+  display: flex;
+  gap: 70px;
+}
+.cent-image img{
+  z-index: 10;
+  opacity: 1;
+  margin-top: -100px; 
+}
  .image-text h1 {
    font-size: 43px;
    color: #fff;
